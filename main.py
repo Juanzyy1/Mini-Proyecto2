@@ -25,5 +25,5 @@ def main():
         for elemento in camion.carga:
             print(f"  - {elemento.codigo}:{elemento.nombre}, Peso: {elemento.peso}, Valor: {elemento.valor}")
             
-if __name__ == "__main__":
+if main():
     main()
